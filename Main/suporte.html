@@ -4,16 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Suporte</title>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="../SRC/LOGO/icon.png" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="../SRC/CSS/style.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-white bg-white">
     <div class="container">
-      <a class="navbar-brand" href="../index.html">DevNerd</a>
+      <img src="../SRC/LOGO/logo.png" alt="">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -31,12 +31,43 @@
 
   <!-- Imagem de Entrada -->
   <header class="hero-image-4 text-white text-center d-flex align-items-center justify-content-center">
-    <h1>Pagina Suporte</h1>
+    <h1 class="comic-relief-f">Pagina Suporte</h1>
   </header>
 
   <!-- Conteúdo principal -->
   <main class="container my-5">
-    <p>Texto de introdução e conteúdos principais da página inicial.</p>
+    <div class="container">
+      <!-- Título da página -->
+      <h1 class="form-title comic-relief-f">Formulário de Suporte - DevNerd</h1>
+
+      <!-- Formulário de envio de problemas -->
+      <form>
+          <div class="mb-3">
+              <label for="nome" class="form-label comic-relief-f">Seu Nome</label>
+              <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+          </div>
+          <div class="mb-3">
+              <label for="email" class="form-label comic-relief-f">Seu E-mail</label>
+              <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" required>
+          </div>
+          <div class="mb-3">
+              <label for="assunto" class="form-label comic-relief-f">Assunto</label>
+              <input type="text" class="form-control" id="assunto" placeholder="Digite o assunto do problema" required>
+          </div>
+          <div class="mb-3">
+              <label for="descricao" class="form-label comic-relief-f">Descrição do Problema</label>
+              <textarea class="form-control" id="descricao" rows="5" placeholder="Descreva seu problema detalhadamente" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary submit-btn comic-relief-f">Enviar Solicitação</button>
+      </form>
+  </div>
+  <div class="container mt-5">
+    <!-- Texto sobre a agilidade de resposta -->
+    <div class="response-text">
+      <h3 class="comic-relief-f">Agilidade de Resposta da DevNerd</h3>
+      <p class="comic-relief-f">A DevNerd valoriza a experiência de seus clientes e trabalha constantemente para oferecer um atendimento ágil e eficaz. Sabemos que cada segundo conta quando se trata de resolver problemas, por isso nossa equipe de suporte está preparada para fornecer respostas rápidas e soluções eficientes. Ao enviar um chamado, nossa prioridade é garantir que seu problema seja tratado com urgência, e nossa equipe estará em contato com você o mais rápido possível, com a melhor solução para sua necessidade. Conte com a DevNerd para resolver suas questões de forma rápida e sem complicação.</p>
+  </div>
+  </div>
   </main>
 
   <!-- Footer -->
