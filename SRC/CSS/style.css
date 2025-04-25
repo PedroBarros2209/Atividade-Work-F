@@ -1,0 +1,151 @@
+/* Fonte online do Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+/* 1. Fonte principal */
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. Estilo da seção hero */
+.hero-image {
+  background: url("../IMGS/alexandre-debieve-FO7JIlwjOtU-unsplash-1.jpg") no-repeat center
+    center;
+  background-size: cover;
+  height: 400px;
+}
+
+/* 3. Título do header */
+.hero-image h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+}
+.hero-image-2 {
+  background: url("../IMGS/jj-ying-8bghKxNU1j0-unsplash-2.jpg") no-repeat center
+    center;
+  background-size: cover;
+  height: 400px;
+}
+
+/* 3. Título do header */
+.hero-image-2 h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+}
+.hero-image-3 {
+  background: url("../IMGS/joshua-sortino-LqKhnDzSF-8-unsplash-3.jpg") no-repeat center
+    center;
+  background-size: cover;
+  height: 400px;
+}
+
+/* 3. Título do header */
+.hero-image-4 h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+}
+.hero-image-4 {
+  background: url("../IMGS/luca-bravo-XJXWbfSo2f0-unsplash-4.jpg") no-repeat center
+    center;
+  background-size: cover;
+  height: 400px;
+}
+
+/* 3. Título do header */
+.hero-image-5 h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+}
+.hero-image-5 {
+  background: url("../IMGS/markus-spiske-iar-afB0QQw-unsplash-5.jpg") no-repeat center
+    center;
+  background-size: cover;
+  height: 400px;
+}
+
+/* 3. Título do header */
+.hero-image-3 h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* 4. Links do navbar */
+.nav-link {
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+/* 5. Hover nos links */
+.nav-link:hover {
+  color: #0dcaf0;
+}
+
+/* 6. Botão toggler do menu mobile */
+.navbar-toggler {
+  border-color: #0dcaf0;
+}
+
+/* 7. Seções */
+section {
+  padding: 60px 0;
+}
+
+/* 8. Footer */
+footer p {
+  margin: 0;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: antiquewhite !important;
+}
+
+/* 9. Ícones do footer */
+footer a:hover {
+  color: #0dcaf0;
+}
+.text-end{
+    color: white !important;
+}
+.text-dark{
+    color: black !important;
+}
+.icon{
+    max-width: 15px;
+}
+
+/* 10. Responsividade extra (exemplo para mobile) */
+@media (max-width: 768px) {
+  .hero-image h1 {
+    font-size: 2rem;
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1;
+}
